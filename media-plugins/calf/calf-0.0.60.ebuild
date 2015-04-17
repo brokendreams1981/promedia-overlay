@@ -1,7 +1,6 @@
 EAPI="5"
 
 inherit eutils
-#autotools
 
 DESCRIPTION="Calf Studio Gear - Audio plugin pack."
 HOMEPAGE="http://calf.sourceforge.net/"
@@ -24,10 +23,6 @@ RDEPEND="media-sound/jack-audio-connection-kit
 	fftw? ( sci-libs/fftw:3.0 )
 	dev-libs/expat"
 
-#src_unpack() {
-#    unpack ${P}.tar.gz
-#}
-
 src_prepare() {
     epatch "${FILESDIR}/0001-Fixed-the-QA-issues.patch"
 }
@@ -41,7 +36,3 @@ src_configure() {
        $(use_with lv2) \
        $(use_enable sse)
 }
-
-#src_install() {
-#    emake DESTDIR="${D}" install
-#}
