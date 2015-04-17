@@ -1,0 +1,31 @@
+From b126879574dfa52e9c59980f741884e55db01784 Mon Sep 17 00:00:00 2001
+From: "Luke A. Guest" <laguest@archeia.com>
+Date: Thu, 16 Apr 2015 19:49:20 +0100
+Subject: [PATCH] desktop
+
+---
+ calf.desktop.in | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/calf.desktop.in b/calf.desktop.in
+index 3b0ffcd..95e34e5 100644
+--- a/calf.desktop.in
++++ b/calf.desktop.in
+@@ -2,12 +2,12 @@
+ Name=Calf Plugin Pack for JACK
+ Name[pl]=Zestaw wtyczek Calf
+ Name[ru]=Набор эффектов и инструментов Calf для JACK
+-Version=@VERSION@
++Version=1.0
+ Comment=Process and produce sounds using a set of plugins with JACK interface
+ Comment[pl]=Przetwarzaj i generuj dźwięk używając zestawu wtyczek zgodnych z JACK
+ Comment[ru]=Обработка и создание музыки при помощи эффектов и инструментов через JACK
+ Exec=calfjackhost
+ Terminal=false
+ Type=Application
+-Categories=Application;AudioVideo;Audio;GNOME
++Categories=AudioVideo;Audio;GNOME;
+ Icon=calf
+-- 
+2.0.5
+
