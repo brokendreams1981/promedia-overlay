@@ -11,4 +11,4 @@ distributed via source repositories. I will aim to make sure that the downloaded
 Packages
 ========
 
-media-plugins/calf      The Calf LV2 plugin suite.
+| media-plugins/[calf](http://calf-studio-gear.org/) | The Calf LV2 plugin suite. |
